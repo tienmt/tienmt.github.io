@@ -1,5 +1,11 @@
-# frozen_string_literal: true
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
+group :jekyll_plugins do
+  gem 'jekyll'
+  gem 'jekyll-feed'
+  gem 'jekyll-sitemap'
+  gem 'jemoji'
+  gem 'webrick', '~> 1.8'
+end
 
-gemspec
+gem 'github-pages'
